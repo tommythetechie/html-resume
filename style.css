@@ -1,0 +1,38 @@
+/*
+font-family: 'Comforter', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+.clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 375px;
+}
+h1 {
+    font-family: 'Comforter', cursive;
+}
+h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.skills ul {
+    
+}
+.skills ul li {
+    list-style-type: none;
+    display: inline-block;
+}
