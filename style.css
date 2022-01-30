@@ -16,19 +16,40 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 22px;
+    font-size: 14px;
 }
 .wrapper {
     margin: 0 auto;
     width: 375px;
 }
 h1 {
+    font-size: 2rem;
     font-family: 'Comforter', cursive;
 }
 h2, h3 {
     font-family: 'Lato', sans-serif;
 }
+header {
 
+}
+.contact span {
+    font-size: 10px;
+    margin-right: 14px;
+}
+.experience {
 
+}
+.job h2 {
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+.job h3 {
+    font-size: 0.8rem;
+    margin-top: 0px;
+}
+.skills {
+
+}
 .skills ul {
     
 }
@@ -36,3 +57,34 @@ h2, h3 {
     list-style-type: none;
     display: inline-block;
 }
+
+@media screen and (min-width: 1000px) {
+    
+    body {
+        font-size: 18px;
+    }
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        grid-template-rows: 200px 800px;
+        
+    }
+    h1 {
+        font-size: 4rem;;
+    }
+    header {
+        grid-column-start: span 6;
+    }
+    .contact span {
+        margin-right: 14px;
+    }
+    .experience {
+        grid-column-start: span 4;
+    }
+    .skills {
+    
+    }
+    
+  }
